@@ -1,0 +1,29 @@
+.article-meta {
+  border-bottom: 1px solid #ADADAD;
+  padding: 0 10px;
+}
+
+.article-meta-title {
+  font-size: 40px;
+  color: #FF8C69;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.article-meta-title:hover {
+  color: #00BFFF;
+}
+
+.article-meta-author {
+  font-size: 16px;
+  padding: 0;
+}
+
+.article-meta-author span {
+  padding-right: 20px;
+}
+
+.article-content {
+  padding-top: 10px;
+  line-height: 24px;
+}

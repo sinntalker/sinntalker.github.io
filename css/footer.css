@@ -1,0 +1,32 @@
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 50px;
+  font-size: 14sp;
+  background: #080808;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+footer div {
+  padding-left: 300px;
+  padding-right: 300px;
+  color: #ADADAD;
+}
+
+footer div p {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+footer div p a {
+  text-decoration: none;
+  color: #ADADAD;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+
+footer div p a:hover {
+  background: #ADADAD;
+  color: #080808;
+}

@@ -1,0 +1,92 @@
+.timeline .move-on {
+  margin-bottom: 40px;
+}
+
+.timeline {
+  margin: 0;
+  margin-top: 50px;
+  list-style: none;
+  position: relative;
+  padding-left: 100px;
+  padding-right: 100px;
+  color: #080808;
+  font-size: 13px;
+}
+
+.timeline::before {
+  margin-left: -15px;
+  margin-top: 15px;
+  content: "";
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  border-left: 2px solid #DFDFDF;
+}
+
+.timeline::after {
+  margin-left: -15px;
+  content: "";
+  width: 5px;
+  /* height: 100%; */
+  position: absolute;
+  margin-bottom: 0;
+  /* border-left: 2px dashed #fff; */
+}
+
+.timeline .dot {
+  margin-left: -22px;
+  width: 15px;
+  height: 15px;
+  margin-top: 12px;
+  border-radius: 50%;
+  background: #00BFFF;
+  position: absolute;
+  /* border: 2px solid #FF8C00; */
+}
+
+.timeline .year {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.timeline .date {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px 0;
+  border-bottom: 1px dashed #CFCFCF;
+  font-style: normal;
+  list-style: none;
+}
+
+.timeline .date:hover {
+  color: #00BFFF;
+}
+
+.timeline .date a {
+  color: #000;
+}
+
+.timeline .date a:hover {
+  color: #00BFFF;
+}
+
+.timeline .dot_date {
+  margin-left: -19px;
+  width: 10px;
+  height: 10px;
+  margin-top: 6px;
+  border-radius: 50%;
+  background: #00BFFF;
+  position: absolute;
+}
+
+.format_date {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.date a {
+  text-decoration: none;
+  font-size: 18px;
+}
